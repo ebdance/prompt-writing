@@ -10,7 +10,7 @@ app.get('/prompt', function(req, res) {
   var prompts = ['what', 'who', 'why', 'when', 'durp', 'hurp', 'foo']
   var randIndex = Math.floor(Math.random() * prompts.length)
 
-  res.json({ prompt: promts[randIndex] })
+  res.json({ prompt: propmts[randIndex] })
 })
 
 
